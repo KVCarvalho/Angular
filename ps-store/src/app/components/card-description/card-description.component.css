@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 32vw;
+    height: 8vh;
+    color: white;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+span{
+    padding: 0.2vh;
+    width: 8.5vw;
+    font-weight: lighter;
+}
+p{
+    position: relative;
+    left: 28vw;
+    bottom: 1.5vh;
+    width: 3.5vw;
+}

@@ -1,0 +1,37 @@
+body{
+    height: 25%;
+    margin-bottom: 1.5%;
+}
+#titulo{
+    height: 60vh;
+    margin: 1vh 4vw 1vh 10vw;
+}
+#titulo_escrito{
+    margin: 0 0 1vh 14vw;
+    width: 50vw;
+}   
+
+#titulo_logo{
+    width: 15vw;
+}
+#navegacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 99.2vw;
+    height: 10vh;
+}
+
+#navegacao a{
+    display: flex;
+    background: #AAA9AD;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3.3vh;
+    width: 16.5vw;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    border-color: #AAA9AD black #AAA9AD;
+}

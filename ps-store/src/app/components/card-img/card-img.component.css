@@ -1,0 +1,19 @@
+
+body{
+    width: 32vw;
+    height: 81vh;
+}
+img{
+    border-radius: 3px;
+    width: 32vw;
+    height: 85vh;
+}
+span{
+    background-color: black;
+    color: white;
+    padding: 0.5vh 1.5vw;
+    width: 7vw;
+    position: relative;
+    bottom: 13.5vh;
+    right: -25vw;
+}

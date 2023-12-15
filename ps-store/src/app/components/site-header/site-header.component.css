@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background: whitesmoke;
+}
+#menu{
+    margin: auto;
+}
+#menu a{
+    margin: 0 3vw;
+    color: black;
+}
+img{
+    width: 11vw;
+}

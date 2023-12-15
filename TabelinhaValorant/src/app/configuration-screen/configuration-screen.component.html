@@ -1,0 +1,35 @@
+<h1>Bem-vindo à Tabelinha</h1>
+<h2>Randomize seu Valorant</h2> 
+    <form [formGroup]="configurations" (ngSubmit)="enterConfig()">
+        <div id="box">
+            <div>
+                <span>Players</span>
+                <input type="number" id="numberInput" max="5" min="1" formControlName = "numberPlayers">
+            </div>
+            <div> 
+    
+                <span>Armas</span>
+                <label class="switch" name="checkguns">
+                    <input type="checkbox" (click)="isTeam()" formControlName = "gunsIncluded">
+                    <span class="slider"></span>
+                </label>
+    
+                <ng-template [ngIf]="isEnableBlock">
+                    <span style="padding-left: 5vh;">Time</span>
+                    <label class="switch">
+                        <input type="checkbox" formControlName = "justOne">
+                        <span class="slider"></span>
+                    </label>
+               </ng-template>
+               
+            </div>
+            <div>
+                <span>Estratégia</span>
+                <label class="switch" name="checkstrat">
+                    <input type="checkbox" formControlName = "stratsIncluded">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        <input type="submit" value="Randomizar" id="submitButton">
+    </form>

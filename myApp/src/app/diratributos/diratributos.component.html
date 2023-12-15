@@ -1,0 +1,24 @@
+<p [ngClass]="estilo">ngClass</p>
+<button (click)="trocac()">Troca Classe CSS</button>
+<hr>
+
+<p [ngStyle]="{'color': corFonte}">ngStyle</p>
+<button (click)="trocas()">Troca Estilo CSS</button>
+<hr>
+
+<input type="text" [(ngModel)]="item" placeholder="ngModel">
+<button (click)="add(item)">Adicionar</button>
+<ul *ngFor="let p of lista; let i = index">
+    <li (click)="remover(i)">{{ p }}</li>
+</ul>
+<hr>
+
+<ng-template  ngIf="isEnableBlock"> <!--DEVE ATENDER A UMA CONDIÇÃO PARA SER EXIBIDO-->
+    ngTemplate
+</ng-template>
+<br>
+<button (click)="troca">Por padrão o ngTemplate não aparece</button>
+<br>
+<hr>
+
+<ng-content select="h1, p"></ng-content> <!--Pode ser distribuída pelo código em várias tags e diferentes selects-->

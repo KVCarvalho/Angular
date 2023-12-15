@@ -1,0 +1,13 @@
+<div id="background" [ngStyle]="getColorsForElement()">
+    <div id="card" [ngStyle]="getBackgroundForElement()">
+        <img src="{{ roleIcon }}" alt="ft">
+        <img src="{{ portrait }}" alt="i">
+        <ng-template [ngIf]="isEnableBlock">
+            <div id="botside">
+                <img src="{{ iconPrimary }}" alt=""  id="primary">
+                <img src="{{ iconSecondary }}" alt=""  id="secondary">
+            </div>
+       </ng-template>
+        
+    </div>
+</div>

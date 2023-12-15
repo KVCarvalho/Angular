@@ -1,0 +1,8 @@
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(9,9,121,1) 100%);
+    padding: 3vh 0vw;
+    height: 92.9vh;
+}

@@ -1,0 +1,11 @@
+<body>
+    <ul>
+        <h1>{{ sidetitle }}</h1>
+        <ul>
+            <li *ngFor="let c of cards">
+                <a [routerLink]="['post', c]">
+                    <img src="{{ noticemainimg }}" alt="" srcset="">
+                    <span>{{ noticetitle }}</span>
+                </a>
+            </li>
+        </ul> 
